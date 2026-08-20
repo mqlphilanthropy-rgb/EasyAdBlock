@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "AdBlock Pro",
+  "version": "1.0.0",
+  "description": "дефолт блокировщик рекламы",
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback",
+    "storage",
+    "alarms"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "AdBlock Pro"
+  }
+}
